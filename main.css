@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    height: 1500px;
+}
+
+.header {
+    background: url(img/Background.svg);
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-grow: 1;
+}
+
+.header__title {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 0 0 15px #FFF;
+}
+
+.cloud {
+    position: absolute;
+    background-blend-mode: overlay;
+    height: 150px;
+    z-index: 1;
+}
+
+.cloud1 {
+    top: 32%;
+    left: 5%;
+    width: 700px;
+}
+
+.cloud2 {
+    top: 10%;
+    left: 9%;
+    width: 900px;
+}
+
+.cloud3 {
+    top: 8%;
+    right: 9%;
+    width: 600px;
+}
+
+.cloud4 {
+    top: 30%;
+    right: 80px;
+    width: 600px;
+}
+
+.sun {
+    position: absolute;
+    right: 18%;
+    height: 40%;
+    top: 8%;
+}
+
+.mountains {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.secondGround {
+    position: absolute;
+    width: 50%;
+    bottom: 10%;
+    right: 0;
+}
+
+.firstGround {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.leftTree {
+    width: 10%;
+}
+
+.downPlants {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
